@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+int main()
+{
+int input=1;
+printf("要好好学习吗？(0/1)>:\n");
+scanf("%d",&input);
+if(input=0)
+prinft("烤红薯!");
+else
+prinft("NICE offer!")
+
+return 0;
+}
