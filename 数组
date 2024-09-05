@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//char ch[5] = {'a','b','c'};
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%d", arr[i]);     //这里你又搞错啦，为什么是0到10呢，因为你没有限定i
+		i++;
+	}
+	if (i==10)     //你看，你还是不记得双等号
+	{
+		printf("%d", arr[i]);
+	}
+	return 0;
+}
